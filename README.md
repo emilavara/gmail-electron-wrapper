@@ -1,6 +1,6 @@
 # gmail-electron-wrapper
 
-a minimal electron desktop wrapper for gmail. built as result of my hatred for browser tabs.
+a minimal electron desktop wrapper for gmail. built as a result of my hatred for browser tabs.
 
 ## all it does
 
