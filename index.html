@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gmail</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<div class="app">
+			<div class="titlebar">
+				<div class="titlebar__controls">
+					<!-- <button id="minimize" class="titlebar__btn" aria-label="Minimize">-</button>
+					<button id="maximize" class="titlebar__btn" aria-label="Maximize">+</button>
+					<button id="close" class="titlebar__btn titlebar__btn--close" aria-label="Close">x</button> -->
+				</div>
+			</div>
+			<div class="content">
+				<webview
+					id="gmail"
+					src="https://mail.google.com"
+					allowpopups
+					partition="persist:gmail-wrapper"
+				></webview>
+			</div>
+		</div>
+		<script src="./renderer.js"></script>
+	</body>
+</html>

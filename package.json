@@ -1,0 +1,15 @@
+{
+	"name": "gmail",
+	"productName": "Gmail",
+	"version": "1.0.0",
+	"description": "Super simple Electron wrapper for Gmail",
+	"main": "main.js",
+	"private": true,
+	"scripts": {
+		"start": "electron .",
+		"dist:mac": "bash ./scripts/build-mac.sh"
+	},
+	"devDependencies": {
+		"electron": "^36.0.0"
+	}
+}
