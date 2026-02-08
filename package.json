@@ -2,7 +2,7 @@
 	"name": "gmail",
 	"productName": "Gmail",
 	"version": "1.0.0",
-	"description": "Super simple Electron wrapper for Gmail",
+	"description": "super simple electron wrapper for gmail",
 	"main": "main.js",
 	"private": true,
 	"scripts": {
